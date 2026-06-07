@@ -40,9 +40,10 @@ npm run dev
 
 ## LLM Model
 
-**Primary:** `google/gemma-3-27b-it:free`
+**Primary:** `meta-llama/llama-3.1-8b-instruct:free`
 
-Selected because it follows structured JSON output instructions reliably on the free tier and handles Indian real estate vocabulary (sector names, lakh/crore units, vastu, etc.) without hallucination.
+Selected because it reliably follows structured JSON output instructions on the free tier, handles Indian real estate vocabulary (sector names, lakh/crore units, vastu) well, and is consistently available on OpenRouter without endpoint errors.
+
 
 ---
 
