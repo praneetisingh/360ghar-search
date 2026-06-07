@@ -41,7 +41,7 @@ Return only the JSON object, no explanation.`;
       "X-Title": "360 Ghar Property Search",
     },
     body: JSON.stringify({
-      model: "meta-llama/llama-3.3-70b-instruct:free",
+      model: "google/gemma-4-31b-it:free",
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: userQuery },
@@ -86,7 +86,7 @@ Be specific — reference matching attributes by name. Do not use bullet points.
       "X-Title": "360 Ghar Property Summary",
     },
     body: JSON.stringify({
-      model: "meta-llama/llama-3.3-70b-instruct:free",
+      model: "google/gemma-4-31b-it:free",
       messages: [
         { role: "system", content: systemPrompt },
         { role: "user", content: userMessage },
